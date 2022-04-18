@@ -1,0 +1,392 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700;800&display=swap');
+
+body {
+     font-family: 'Dosis';
+}
+
+a {
+     color: inherit;
+     text-decoration: none;
+     font-size: inherit;
+}
+
+a:hover {
+     color: #515151;
+}
+
+button {
+     outline: 0;
+}
+
+.btn-all {
+     background: #3CB371;
+     padding: 16px 32px 18px 32px;
+     border: 1px solid #3CB371;
+     border-radius: 8px;
+     font-size: 18px;
+     letter-spacing: 1px;
+     color: #FFFFFF;
+     font-weight: 800;
+     margin: 30px auto;
+     display: block;
+}
+
+.titel {
+     font-weight: 800;
+     font-size: 40px;
+     line-height: 50px;
+     letter-spacing: 0.5px;
+     color: #10537D;
+}
+
+.swiper {
+     width: 100%;
+     height: 100%;
+}
+
+.swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+}
+
+.swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+#header {
+     width: 100%;
+     top: 0;
+     background-color: #036994;
+     padding: 20px;
+     position: relative;
+}
+
+#header .navbar h1 {
+     font-weight: 800;
+     font-size: 48px;
+     line-height: 61px;
+     letter-spacing: 0.5px;
+     color: #FFFFFF;
+}
+
+.navbar button.small-screen {
+     font-size: 19px;
+     padding: 10px 20px;
+     font-weight: 700;
+     display: none;
+}
+
+
+#main .strated {
+     background: #036994;
+}
+
+.strated .one {
+     order: 1;
+}
+
+.strated .two {
+     order: 2;
+}
+
+.strated p {
+     font-weight: 800;
+     font-size: 48px;
+     line-height: 61px;
+     letter-spacing: 1px;
+     color: #FFFFFF;
+     margin-bottom: 40px;
+
+}
+
+.strated button {
+     background: #3CB371;
+     padding: 16px 32px 18px 32px;
+     border: 1px solid #3CB371;
+     border-radius: 8px;
+     font-size: 22px;
+     letter-spacing: 1px;
+     color: #FFFFFF;
+     font-weight: 800;
+}
+
+.strated .play {
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%)
+}
+
+
+
+.how-work .descrp {
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 35px;
+     letter-spacing: 0.25px;
+     color: #515151;
+     text-align: center;
+}
+
+.how-work .img-stage {
+     height: 350px;
+     position: relative;
+}
+
+
+.how-work .img-stage::after {
+     content: " ";
+     width: 230px;
+     height: 2px;
+     background: #E5E5E5;
+     bottom: 12%;
+     position: absolute;
+}
+
+
+.how-work .img-stage.last::after {
+     content: "";
+     width: 0px;
+     height: 0px;
+}
+
+.how-work .titel-2 {
+     margin: 20px 0;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 35px;
+     text-align: center;
+     color: #10537D;
+}
+
+.how-work .numbar {
+     background-color: #3CB371;
+     width: 70px;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #FFFFFF;
+     font-size: 30px;
+     font-weight: bold;
+     border-radius: 100%;
+     top: 51%;
+     left: 33%;
+}
+
+
+
+.companys {
+     border-top: 1px solid #F7F8FA;
+     padding: 50px 0;
+}
+
+.company {
+     width: calc(100% / 7);
+}
+
+.company>img {
+     display: block;
+     margin: 0 auto;
+}
+
+.magic-formula, Footer {
+     background: #F3F3F3;
+}
+
+.magic-formula .heart p {
+     font-weight: 700;
+     font-size: 25px;
+     margin-left: 20px;
+     line-height: 35px;
+     letter-spacing: 0.25px;
+     color: #10537D;
+
+}
+
+.magic-formula .titel, .magic-formula .heart {
+     margin-left: 40px;
+}
+
+.card-body {
+     flex: 1 1 auto;
+     padding: 20px;
+}
+
+.card .time {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 10px;
+     margin: 15px 0px;
+     letter-spacing: 0.2px;
+     color: #036994;
+}
+
+.card .title {
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 35px;
+     color: #10537D;
+     margin: 15px 0;
+     text-align: left;
+}
+
+.card .link-card {
+     font-size: 21px;
+     line-height: 160%;
+     display: flex;
+     align-items: flex-end;
+     color: #3CB371;
+     margin: 30px 0 15px;
+}
+
+.swiper-scrollbar-drag {
+     background-color: #10537D;
+}
+
+.join .btn-all {
+     margin: 50px 0 0;
+}
+
+.previwe {
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     background-color: #10537D;
+     padding: 70px 30px;
+     border-radius: 10px;
+}
+
+.previwe .img {
+     left: 50%;
+     top: -2.5%;
+     transform: translate(-50%, -50%)
+}
+
+.previwe .saying {
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 35px;
+     letter-spacing: 0.25px;
+     color: #FFFFFF;
+}
+
+.previwe .name {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 24px;
+     letter-spacing: 0.2px;
+     color: #FFFFFF;
+}
+
+.previwe .links {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.previwe .links span {
+     font-weight: 700;
+     font-size: 15px;
+     padding: 5px;
+     flex-wrap: wrap;
+     border-radius: 2px;
+     opacity: 0.5;
+     margin-left: 5px;
+     border: 1px solid #eee;
+     text-align: center;
+     color: #FFFFFF;
+     transition: all 0.5s;
+}
+
+.previwe .links span:hover {
+     opacity: 1;
+     background-color: #fff;
+     color: #10537D;
+}
+
+
+Footer img {
+     display: block;
+     margin: 0 auto;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+     #header .navbar h1 {
+          font-size: 24px;
+          line-height: 30px;
+          letter-spacing: 0.5px;
+     }
+
+     .navbar button.small-screen {
+          display: block;
+     }
+
+     .strated .one {
+          order: 2;
+     }
+
+     .strated .two {
+          order: 1;
+     }
+
+     .strated p {
+          font-size: 32px;
+          line-height: 40px;
+          letter-spacing: 1px;
+          margin: 50px 0;
+     }
+
+     .how-work .img-stage::after {
+          content: "";
+          width: 0px;
+          height: 0px;
+     }
+
+     .how-work .img-stage img {
+          display: block;
+          margin: 0 auto;
+     }
+
+     .how-work .numbar {
+          left: 43%;
+     }
+
+     .join .btn-all {
+          margin: 20px auto 70px;
+     }
+
+     .companys {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     .company {
+          width: 50px;
+     }
+
+     .magic-formula .titel, .magic-formula .heart {
+          margin-left: 0;
+     }
+
+}
