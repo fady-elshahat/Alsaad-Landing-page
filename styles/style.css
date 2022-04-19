@@ -3,6 +3,7 @@
 
 body {
      font-family: 'Dosis';
+     overflow-x: hidden;
 }
 
 a {
@@ -42,13 +43,14 @@ button {
 
 .swiper {
      width: 100%;
-     height: 100%;
+     height: 484px;
+     overflow-x: hidden;
 }
+
 
 .swiper-slide {
      text-align: center;
      font-size: 18px;
-     background: #fff;
 
      /* Center slide text vertically */
      display: -webkit-box;
@@ -70,6 +72,24 @@ button {
      width: 100%;
      height: 100%;
      object-fit: cover;
+}
+
+.swiper-button-next {
+     top: 98%;
+}
+
+.swiper-button-prev {
+     top: 98%;
+     right: auto;
+     left: 84%;
+}
+
+.swiper-button-prev::after {
+     content: url(../assets/imges/Icon/arrow-righvt.svg);
+}
+
+.swiper-button-next::after {
+     content: url(../assets/imges/Icon/arrow-right.svg);
 }
 
 #header {
@@ -340,6 +360,10 @@ Footer img {
           display: block;
      }
 
+     .small-screen {
+          display: none;
+     }
+
      .strated .one {
           order: 2;
      }
@@ -388,5 +412,26 @@ Footer img {
      .magic-formula .titel, .magic-formula .heart {
           margin-left: 0;
      }
+
+     .swiper {
+          height: 545px;
+     }
+
+     .swiper-button-prev {
+          top: 98%;
+          right: auto;
+          left: 80%;
+     }
+
+     Footer .btn-all {
+          position: absolute;
+          top: 65%;
+          left: 50%;
+          z-index: 33;
+          transform: translate(-50%, -50%);
+          padding: 20px 12px 20px;
+          width: 70%;
+     }
+
 
 }

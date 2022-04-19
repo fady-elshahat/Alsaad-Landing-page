@@ -1,28 +1,32 @@
 var swiper = new Swiper( ".mySwiper", {
      scrollbar: {
           el: ".swiper-scrollbar",
-          hide: false,
           dragSize: 215,
           draggable: true,
      },
-     slidesPerView: 5,
-     width: 1300,
-
+     slidesPerView: 7,
      spaceBetween: 20,
      breakpoints: {
-          640: {
-               slidesPerView: 2,
-               spaceBetween: 20,
+          300: {
+               slidesPerView: 1,
+               spaceBetween: 10,
           },
-          768: {
-               slidesPerView: 4,
-               spaceBetween: 40,
+          400: {
+               slidesPerView: 1,
+               spaceBetween: 10,
           },
-          1024: {
-               slidesPerView: 5,
-               spaceBetween: 20,
+          550: {
+               slidesPerView: 1,
+               spaceBetween: 10,
           },
      }
+} )
+var swiper2 = new Swiper( ".mySwiper-2", {
+     navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+     },
+
 } )
 new TypeIt( "#element", {
      lifeLike: false,
@@ -45,7 +49,7 @@ animation.reveal( `.hangouts,.stage-2`, {
      interval: 100,
 } )
 
-animation.reveal( `.one,.stage-3`, {
+animation.reveal( `.one,.stage-3 ,Footer`, {
      origin: 'left',
 } )
 
@@ -53,7 +57,7 @@ animation.reveal( `.two , .stage-1 ,.previwe`, {
      origin: 'right',
      interval: 100,
 } )
-animation.reveal( `.two , .companys ,Footer`, {
+animation.reveal( `.two , .companys `, {
      origin: 'bottom',
      interval: 100,
 } )
